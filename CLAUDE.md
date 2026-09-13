@@ -17,7 +17,7 @@
 ## Особенности работы Claude
 
 - Ветки `claude/<краткое-имя>`.
-- Remote: `galaersh-ai/ask_and_study_box`, приватный. У `aigalaersh` есть push,
+- Remote: `galaersh-ai/ask_and_study_box`, публичный. У `aigalaersh` есть push,
   но нет admin. `main` не защищена, поэтому запрет прямой записи держится
   только на дисциплине. PR создавать через `gh`, свой PR не сливать.
 - Оболочка — Git Bash, а команды проверок в `AGENTS.md` написаны для PowerShell.
