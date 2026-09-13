@@ -1,0 +1,10 @@
+id: "module.prompt_name"
+version: 1
+status: "draft"
+purpose: "Описать одну проверяемую задачу промпта"
+inputs: []
+template: "<added with module implementation>"
+response_schema: "schema-v1.json"
+tests:
+  contract: "tests/contract/prompts/module.prompt_name/"
+  quality_dataset: "tests/fixtures/evals/module.prompt_name-v1.jsonl"

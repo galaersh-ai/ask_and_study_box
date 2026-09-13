@@ -1,0 +1,19 @@
+project:
+  default_locale: "ru"
+
+providers:
+  llm: "stub"
+  embeddings: "stub"
+
+retrieval:
+  strategy: "to_be_decided"
+
+runtime:
+  log_level: "INFO"
+  offline_by_default: true
+
+prompts:
+  root: "prompts"
+
+security:
+  secrets_source: "environment"

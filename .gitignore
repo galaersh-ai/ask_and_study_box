@@ -1,0 +1,34 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local.yaml
+*.local.yml
+
+# Python and uv
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Runtime data
+data/
+cache/
+logs/
+exports/
+backups/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
