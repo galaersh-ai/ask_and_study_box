@@ -12,21 +12,26 @@
   модули, а не одна схема данных или один большой промпт.
 - В MVP входят два демонстрационных пакета: синтетическая компания и курс
   по AI-агентам.
-- «Студия предметной области», Learning Studio, Assessment и юридический пакет
-  не входят в MVP.
-- Runtime MVP может использовать внешний инференс моделей, допускающих
+- Пользователи — преподаватель и ученики; язык — русский.
+- Вторая очередь сразу после MVP — Learning Studio: учебные материалы
+  из проверенной базы знаний. Assessment, адаптивное обучение, учёт прогресса,
+  «студия предметной области» и юридический пакет — следующие очереди.
+- Runtime MVP использует облачный инференс моделей, допускающих
   локальное развёртывание. Подготовка схем и синтетических данных может
   использовать более сильную внешнюю модель в отдельном контуре.
 
 ## Документы
 
-- [`AGENTS.md`](AGENTS.md) — обязательные инструкции для исполнителей и Codex.
+- [`AGENTS.md`](AGENTS.md) — обязательные инструкции для исполнителей, Codex
+  и Claude; [`CLAUDE.md`](CLAUDE.md) — дополнения для Claude Code.
 - [`docs/development-plan.md`](docs/development-plan.md) — этапы, модули,
   зависимости и критерии готовности.
 - [`docs/development-rules.md`](docs/development-rules.md) — правила Git,
   тестирования, конфигурации, секретов и промптов.
 - [`docs/requirements/product-baseline.md`](docs/requirements/product-baseline.md) —
   самодостаточный baseline требований и приёмки MVP.
+- [`docs/requirements/learning-studio-baseline.md`](docs/requirements/learning-studio-baseline.md) —
+  черновик требований второй очереди.
 - [`docs/project-status.md`](docs/project-status.md) — единый документ состояния.
 - [`docs/architecture/README.md`](docs/architecture/README.md) — границы
   архитектурных артефактов.

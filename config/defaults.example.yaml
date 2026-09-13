@@ -5,6 +5,10 @@ providers:
   llm: "stub"
   embeddings: "stub"
 
+sources:
+  allowed_formats: ["pdf", "docx", "md", "xlsx", "csv"]
+  max_file_size_mb: 50
+
 retrieval:
   strategy: "to_be_decided"
 
