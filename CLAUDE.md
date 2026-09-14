@@ -9,7 +9,7 @@
 
 - Требования MVP: `docs/requirements/product-baseline.md`.
 - Требования второй очереди (Learning Studio): `docs/requirements/learning-studio-baseline.md`.
-- Этапы PH-00…PH-11 и модули MOD-01…MOD-15: `docs/development-plan.md`.
+- Этапы PH-00…PH-12 и модули MOD-01…MOD-15: `docs/development-plan.md`.
 - Регламент (спецификация модуля, тесты, промпты, Git): `docs/development-rules.md`.
 - Решения: `docs/architecture/decisions/`, новые ADR — в формате MADR.
 - Состояние: `docs/project-status.md`, других документов состояния не заводить.
