@@ -14,7 +14,8 @@
   по AI-агентам.
 - Пользователи — автор и читатели; язык — русский.
 - Вторая очередь сразу после MVP — Learning Studio: учебные материалы
-  из проверенной базы знаний. Assessment, адаптивное обучение, учёт прогресса,
+  из проверенной базы знаний. Assessment запланирован третьей очередью с точкой
+  решения на PH-13 до реализации. Адаптивное обучение, учёт прогресса,
   «студия предметной области» и юридический пакет — следующие очереди.
 - Runtime MVP использует облачный инференс моделей, допускающих
   локальное развёртывание. Подготовка схем и синтетических данных может
@@ -32,6 +33,8 @@
   самодостаточный baseline требований и приёмки MVP.
 - [`docs/requirements/learning-studio-baseline.md`](docs/requirements/learning-studio-baseline.md) —
   черновик требований второй очереди.
+- [`docs/requirements/assessment-baseline.md`](docs/requirements/assessment-baseline.md) —
+  предварительный черновик третьей очереди.
 - [`docs/project-status.md`](docs/project-status.md) — единый документ состояния.
 - [`docs/architecture/README.md`](docs/architecture/README.md) — границы
   архитектурных артефактов.
