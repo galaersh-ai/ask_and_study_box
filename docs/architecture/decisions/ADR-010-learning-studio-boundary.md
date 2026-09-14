@@ -129,8 +129,8 @@ Evidence-ссылок, offline-экспорт, безопасность инте
 
 ### Что отложено
 
-- Assessment, адаптивное обучение и учёт прогресса — следующие очереди, для
-  них будут отдельные ADR.
+- Assessment запланирован третьей очередью; его граница предложена в ADR-012.
+  Адаптивное обучение и учёт прогресса — последующие очереди с отдельными ADR.
 - Самопроверка без передачи ответа системе, баллов и хранения попыток относится
   к Learning Studio; любое оценивание относится к будущему Assessment.
 - Выгрузка в LMS.
@@ -155,3 +155,4 @@ Evidence-ссылок, offline-экспорт, безопасность инте
 - [OpenMAIC v1.0.1](https://github.com/THU-MAIC/OpenMAIC/releases/tag/v1.0.1);
 - [OpenMAIC README v1.0.1](https://github.com/THU-MAIC/OpenMAIC/blob/v1.0.1/README.md), разделы Features,
   Agent Workbench и Pluggable Storage.
+- [`ADR-012-assessment-boundary.md`](ADR-012-assessment-boundary.md).
